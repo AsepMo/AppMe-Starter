@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================================== -->
+    <!--  APPME APPLICATION  strings.         -->
+    <!-- ==================================== -->
+    <!-- Toolbar -->
+    <string name="app_name">AppMe</string>
+    <string name="app_me">AppMe</string>
+    <string name="app_author">AsepMo</string>
+    <string name="app_version">3.5</string>
+    
+    <string name="app_activity_image_preview">Image Preview</string>
+    <string name="app_activity_audio_preview">Audio Preview</string>
+    <string name="app_activity_video_preview">Video Preview</string>
+    <string name="app_activity_youtube_preview">YouTube Preview</string>
+    <string name="app_player_error">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="app_player_not_valid_link">Not a valid YouTube link!</string>
+
+    <string name="appme_service">AppMe</string> 
+    <string name="appme_service_is_running">Service Is Running!</string>
+    <string name="appme_service_not_running">Service Not Running..</string>
+    <string name="appme_service_is_home">Home</string> 
+    <string name="appme_start_server">Start Server</string>
+    <string name="appme_stop_server">Stop Server</string>
+    <string name="appme_start_browser">Open in browser</string>
+    <string name="appme_server_stop_succeed">The server has stopped.</string>
+    <string name="appme_server_ip_error">Check Your IP.</string>
+    <string name="appme_info_details">This is a sample app for RootBeer - a simple to use root checking Android library. Rootbeer gives an indication of root. Remember root==god, so there\'s no 100% way to check for root.</string>
+    <!-- ==================================== -->
+    <!--   APPLICATION STEP ROOT strings      -->
+    <!-- ==================================== -->
+    <!-- String For Toast -->
+    <string name="msg_sorry">Sorry!Permission Denied..</string>
+
+    <!-- Donate dialog -->
+    <string name="donate_dialog_title">Support me</string>
+    <string name="donate_dialog_message">If you like this library project and you are willing to support me, you can donate me via Alipay or PayPal.\n\nAlipay: fythonx\@gmail.com\nPayPal: Click PAYPAL button to open a new tab.</string>
+    <string name="donate_dialog_paypal_button">PayPal</string>
+
+    <!-- Vertical Stepper View Sample Item -->
+    <string name="content_step_0">Tahap Pertama Sebelum Root.Backup Seluruh Data Penting Yang Tersimpan Di Memory Internal HP.
+        Untuk Menghindari Hal-hal Tak Terduga Yang Membuat Anda Kehilangan Data Penting.
+        Anda Bisa Membackup Data Anda Ke Cloud.
+        Dan Jangan Lupa Aktifkan Data Internet.Root Dengan Aplikasi Memerlukan Akses Penuh Internet.
+        Untuk Menyesuaikan Metode Root Dengan Device HP Anda.Klik "OK"  Untuk Melanjutkan Ke Step Berikutnya.</string>
+    <string name="root_content_step_1">Tahap Kedua.Check Device Anda Apakah Termasuk HP Yang Dapat Langsung ROOT Dengan KINGOROOT.Atau Harus Membuka Kunci Bootloadernya Terlebih Dahulu.
+        Cara Unlock Bootloader Cari Di Google Search Dengan Kata Kunci("Cara Unlock Bootloader Xiami Redmi Note 3 Atau Nama Device HP Android Anda").
+        Dan Pastikan Baterai HP Anda Minimal 85 Persen.Agar HP Anda Tidak Shutdown Selama Proses Root.Klik "OK"</string>
+    <string name="root_content_step_2">Tahap Ketiga.Aktifkan Opsi Pengembang Sebelum Melakukan Root.
+        Dan Masukkan Device Ke Dalam Mode Debug.
+        Yang Artinya HP Anda Siap Dimodifikasi.
+        Untuk Lebih Jelasnya Tentang Usb Debugging.
+        Cari Di Google Search Dengan Kata Kunci ("Fungsi Usb Debugging Mode").Setelah Semua Tahap Persiapan Dilewati.Maka Tunggu Proses Root Berlangsung.
+        Biarkan Layar HP Anda Tetap Menyala.
+        Root Dengan KingoRoot Memerlukan Waktu 5 menit.
+        Apabila Root Berhasil.Maka Ada Konfirmasi Sukses.Dan Di HP Anda Terinstall Aplikasi KINGOUSER Yang Berguna Untuk Memanajemeni Root.
+        Mengijinkan Aplikasi Lain Menggunakan Akses Root Atau Tidak.Menghapus Aplikasi Installer Dan Aplikasi System.</string>
+    <string name="root_content_step_3">Tahap Ketiga.</string>
+    <string name="root_content_step_4">Tahap Keempat.</string>
+    <string name="root_content_step_5">Tahap Selanjutnya.</string>
+    <string name="toggle_animation_button">Toggle Animation</string>
+
+    <!-- ==================================== -->
+    <!--  APPLICATION SCANNING  strings.      -->
+    <!-- ==================================== -->
+    <!-- String For Root Checker -->
+    <string name="app_activity_checker">Checker</string>
+    <string name="checker_step_1">Step 1.Check Status</string>
+    <string name="checker_step_2">Step 2.Installation</string>
+    <string name="checker_step_3">Step 3.Syncron Data</string>
+    <string name="checker_step_4">Step 4.Start Activity</string>
+
+    <string name="checker_step_summary_1">CHECK STATUS Mode</string>
+    <string name="checker_step_summary_done_1">CHECK STATUS Mode. Done</string>
+
+    <string name="checker_content_step_0">CHECKED STATUS</string>
+    <string name="checker_content_step_1">INSTALLATION</string>
+    <string name="checker_content_step_2">SYNCRONIZED</string>
+    <string name="checker_content_step_3">START ACTIVITY</string>
+    <string name="checker_content_step_4">START ACTIVITY</string>
+
+    <string name="checker_please_wait">Please Wait..</string>
+    <string name="checker_check_status_root">CHECKED STATUS</string>
+    <string name="checker_device_rooted">DEVICE ROOTED</string>
+    <string name="checker_device_no_rooted">DEVICE NO ROOTED</string>
+
+    <string name="checker_installation_success">INSTALLATION SUCCESS..</string>
+    <string name="checker_installation_error">INSTALLATION ERROR!</string>
+
+    <string name="checker_syncron_success">SYNCRON DATA SUCCESS..</string>
+    <string name="checker_syncron_error">SYNCRON DATA ERROR!</string>
+
+    <string name="checker_start_activity_success">START ACTIVITY SUCCESS..</string>
+    <string name="checker_start_activity_error">START ACTIVITY ERROR!</string>
+
+    <string name="root_checks_1">ROOT MANAGEMENT APPS</string>
+    <string name="root_checks_2">POTENTIALLY DANGEROUS APPS</string>
+    <string name="root_checks_3">TEST KEYS</string>
+    <string name="root_checks_4">BUSYBOX BINARY</string>
+    <string name="root_checks_5">SU BINARY</string>
+    <string name="root_checks_6">SU EXISTS</string>
+    <string name="root_checks_7">RW PATHS</string>
+    <string name="root_checks_8">DANGEROUS PROPS</string>
+    <string name="root_checks_9">ROOT NATIVE</string>
+    <string name="root_checks_10">ROOT CLOAKING APPS</string>
+    <string name="root_checks_11">SELINUX FLAG ENABLED (EXPERIMENTAL)</string>
+       
+    <!-- String For Installation-->
+    <string name="content_step_0">CHECKED STATUS</string>
+    <string name="content_step_1">INSTALLATION</string>
+    <string name="content_step_2">SYNCRONIZED</string>
+    <string name="content_step_3">START ACTIVITY</string>
+    <string name="content_step_4">START ACTIVITY</string>
+    
+    <string name="please_wait">Please Wait..</string>
+    <string name="check_status_root">CHECKED STATUS</string>
+    <string name="device_rooted">DEVICE ROOTED</string>
+    <string name="device_no_rooted">DEVICE NO ROOTED</string>
+
+    <string name="installation_success">INSTALLATION SUCCESS..</string>
+    <string name="installation_error">INSTALLATION ERROR!</string>
+
+    <string name="syncron_success">SYNCRON DATA SUCCESS..</string>
+    <string name="syncron_error">SYNCRON DATA ERROR!</string>
+
+    <string name="start_activity_success">START ACTIVITY SUCCESS..</string>
+    <string name="start_activity_error">START ACTIVITY ERROR!</string>
+
+
+    <!-- String For Updater -->
+    <string name="update_lib_network_not_available">The current network is not available</string>
+    <string name="update_lib_default_toast">Is currently the latest version</string>
+
+    <!--DownLoadDialog-->
+    <string name="update_lib_download_cancel">Download canceled</string>
+    <string name="update_lib_download_in_background">Is updating in the background</string>
+    <string name="update_lib_download_finish">Download completed</string>
+    <string name="update_lib_download_failed">Download failed</string>
+    <string name="update_lib_file_download_format">Downloading（%1$s/%2$s）</string>
+
+    <!--UpdateDialog-->
+    <string name="update_lib_update_content">Release notes&#65306;</string>
+    <string name="update_lib_version_code">Version number&#65306;</string>
+    <string name="update_lib_update">Update</string>
+    <string name="update_lib_cancel">Cancel</string>
+    <string name="update_lib_dialog_title">Update Available</string>
+
+    <!--DownLoadService-->
+    <string name="update_lib_file_download">Download document</string>
+    <string name="update_lib_file_downloading">Is being downloaded&#8230;</string>
+
+    <!--fragment_download.xml-->
+    <string name="update_lib_file_download_text">Downloading</string>
+    <string name="update_lib_stop_download">Stop downloading</string>
+    <string name="update_lib_background_download">Background download</string>
+
+    <!-- String For Web Server -->
+    <string name="web_turn_on_server">Turn on server</string>
+    <string name="web_turn_off_server">Turn off server</string>
+    <string name="web_server_off">Web server is off</string>
+    <string name="web_server_on">Web server is on,access by this url</string>
+    <string name="web_server_suspend">Web server is suspend</string>
+    <string name="web_storage_off">Attention,the storage device is not available</string>
+    <string name="web_wifi_off">Network is not available</string>
+    <string name="web_file_extract">Initializing...</string>
+    <string name="web_notification_title">Web server is running</string>
+    <string name="web_notification_content">Server address：%s</string>
+    <string name="web_server_settings">Server settings</string>
+    <string name="web_server_port">Server Port</string>
+    <string name="web_server_port_summary">Server port is %d</string>
+    <string name="web_server_port_dialog_title">Input the server port</string>
+    <string name="web_server_port_invalid">Port number must be between 1024 and 65535</string>
+    <string name="web_server_port_occupied">Port %d is occupied by others, please set new port in settings menu.</string>
+    <string name="web_server_info">About WebServer</string>
+    <string name="web_server_version">Version</string>
+    <string name="web_server_ip_error">Error</string>
+    <string name="web_server_stop_succeed">The server has stopped.</string>
+    <string name="web_config_file_root">/</string>
+    <string name="web_start_server">Start Server</string>
+    <string name="web_stop_server">Stop Server</string>
+    <string name="web_open_browse">Open in browser</string>
+    <string name="choose_email_client">Choose email client</string>
+
+    <string name="connecting_text">Connecting&#8230;</string>
+    <string name="connected_text">Connection successful</string>
+    <string name="connection_error_text">Connection error</string>
+    
+    <!-- ============================ -->
+    <!--  Accessibility examples strings  -->
+    <!-- ============================ -->
+    <string name="accessibility_service">Accessibility Service</string>
+    <string name="accessibility_service_label">ClockBack</string>
+    <string name="accessibility_service_instructions">
+        1. Enable TalkBack (Settings -> Accessibility -> TalkBack).
+        \n\n2. Enable Explore-by-Touch (Settings -> Accessibility -> Explore by Touch).
+        \n\n3. Touch explore the Clock application and the home screen.
+        \n\n4. Go to the Clock application and change the time of an alarm.
+        \n\n5. Enable ClockBack (Settings -> Accessibility -> ClockBack).
+        \n\n6. Go to the Clock application and change an alarm.
+        \n\n7. Set the ringer to vibration mode and change an alarm.
+        \n\n8. Set the ringer to muted mode and change an alarm.
+    </string>
+    <string name="accessibility_service_description">
+        This App Accessibility Service
+    </string>
+    <string name="value_ringer_audible">Ringer audible</string>
+    <string name="value_ringer_vibrate">Ringer vibrate</string>
+    <string name="value_ringer_silent">Ringer silent</string>
+    <string name="template_screen_on">Screen on. Volume %1$s percent.</string>
+    <string name="template_screen_off">Screen off. Volume %1$s percent.</string>
+
+    <!-- Permissions -->
+    <string name="message_granted">All permissions have been granted.</string>
+    <string name="message_denied">Permission \"%1$s\" has been denied.</string>
+
+    <!-- String for Connection-->
+    <string name="connecting_text">Connecting&#8230;</string>
+    <string name="connected_text">Screen Recording</string>
+    <string name="connection_error_text">Connection error</string>
+
+    <!-- Notifications -->
+    <string name="notification_title">Latest broadcast\'s action is:</string>
+    <string name="notify_record">Record</string>
+    <string name="notify_stop">Stop</string>   
+    <string name="notify_screen_shot">Screen Shot</string> 
+    <string name="notify_shutdown">Close</string>
+
+    <!--MainActivity-->
+    <string name="device_address">Device address:</string>
+    <string name="start_stream">Start stream</string>
+    <string name="stop_stream">Stop stream</string>
+    <string name="connected_clients">Connected clients: %1$d</string>
+    <string name="no_wifi_connected">No WiFi connected</string>
+    <string name="cast_permission_deny">Screen Cast permission denied</string>
+    <string name="snackbar_port_in_use">Port already in use\nChoose another one</string>
+
+    <!--ForegroundService-->
+    <string name="service_press">PRESS</string>
+    <string name="service_on_device">ON DEVICE</string>
+    <string name="service_ready_to_stream">Ready to stream</string>
+    <string name="service_press_start">Press start to begin stream</string>
+    <string name="service_start">START</string>
+    <string name="service_close">CLOSE</string>
+    <string name="service_stream">Stream…</string>
+    <string name="service_go_to">Go to:\u0020</string>
+    <string name="service_stop">STOP</string>
+
+    <!--SettingsActivity-->
+    <string name="port_range">Port number must be between %1$d and %2$d</string>
+    <string name="value">\nValue:\u0020</string>
+
+    <!--PreferenceScreen-->
+    <string name="settings_interface">Interface</string>
+    <string name="minimize_on_stream">Minimize on stream</string>
+    <string name="minimise_on_stream_summary">Minimize app on stream start</string>
+    <string name="stop_on_sleep">Stop on sleep</string>
+    <string name="stop_on_sleep_summary">Stop stream if screen turns off</string>
+    <string name="settings_advanced">Advanced</string>
+    <string name="server_port">Server port</string>
+    <string name="server_port_summary">Set port for incoming connections\nDefault: 8080</string>
+    <string name="settings_jpeg_quality">JPEG quality</string>
+    <string name="settings_jpeg_quality_summary">Set JPEG quality</string>
+    <string name="client_timeout">Client connection timeout</string>
+    <string name="client_timeout_summary">Set time for client response in seconds</string>
+    <!-- String For Global -->
+    <string name="open_file_activity_not_found">No application found to Open This File.</string>
+    <string name="share_file_activity_not_found">No application found to share this file.</string>
+    <string name="unable_to_write_file">Unable to write downloaded file</string>
+    <string name="unable_to_delete_file">Unable to delete file</string>
+    <string name="deleted_file_successfully">File deleted successfully</string>
+    <string name="delete_confirmation">Delete Confirmation</string>
+    <string name="delete_confirmation_content">Are you sure you want to delete the download from the storage ?</string>
+    <string name="unable_to_find_file">Unable to find file </string>
+    <string name="camera_cannot_open">Camera Not Open</string>
+</resources>

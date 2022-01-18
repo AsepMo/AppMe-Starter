@@ -1,0 +1,21 @@
+<resources>
+	<string name="classes_link">https://github.com/tranleduy2000/javaide/blob/master/system/classes/classes.zip</string>
+	<string name="url_faq">http://www.androidhive.info/privacy-policy/</string>
+	<string name="url_privacy">http://www.androidhive.info/privacy-policy/</string>
+	<string name="url_terms">http://www.androidhive.info/terms-of-service/</string>
+    
+    <string name="fontsize" translatable="false">12</string>
+    <string name="maxlines" translatable="false">100</string>
+    <string name="timestamp" translatable="false">false</string>
+    <string name="language" translatable="false"></string>
+    <string name="theme" translatable="false">dark</string>
+    <string name="debug" translatable="false">false</string>
+    <string name="trace" translatable="false">false</string>
+    <string name="logger" translatable="false">false</string>
+    <string name="logfile" translatable="false"></string>
+    <string name="installdir" translatable="false">/system/xbin</string>
+    <string name="applets" translatable="false">true</string>
+    <string name="replace" translatable="false">true</string>
+    <string name="ramdisk" translatable="false">true</string>
+    <string name="terminalcmd" translatable="false">export PATH=${ENV_DIR}/bin:$PATH</string>
+</resources>

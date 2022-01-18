@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- ==================================== -->
+    <!--   ABOUT colors.                      -->
+    <!-- ==================================== -->
+    <!-- General -->
+    <color name="about_item_icon_color">#313131</color>
+    <color name="about_background_color">#FFFFFF</color>
+    <color name="about_separator_color">#e1e1e1</color>
+
+    <!-- Social -->
+    <color name="about_facebook_color">#3b5998</color>
+    <color name="about_twitter_color">#55acee</color>
+    <color name="about_instagram_color">#3f729b</color>
+    <color name="about_play_store_color">#689F38</color>
+    <color name="about_youtube_color">#cd201f</color>
+    <color name="about_github_color">#333333</color>
+
+    <!-- Text -->
+    <color name="about_description_text_color">#595959</color>
+    <color name="about_item_text_color">#7c7c7c</color>
+    <color name="about_text_color">#595959</color>
+	
+	<!-- ==================================== -->
+    <!--   APPS colors.                       -->
+    <!-- ==================================== -->
+    <color name="apps_list_system_memory">#ff384248</color>
+    <color name="apps_list_cache_memory">#ff009587</color>
+    <color name="apps_list_free_memory">#ffced7db</color>
+
+    <color name="apps_background">#FFFF8017</color>
+    <color name="apps_list_background">#212121</color>
+    <color name="apps_list_background_primary">#212121</color>
+    <color name="apps_list_background_secondary">#B2B2B2</color>
+
+    <color name="apps_textColorPrimary">#212121</color>
+    <color name="apps_textColorSecondary">#B2B2B2</color>
+    <color name="apps_red">#B3FF0000</color>
+    <color name="apps_running">#EA80FC</color>
+    <color name="apps_stopped">#fceed1</color>
+    <color name="apps_orange">#e05915</color>
+    <color name="apps_highlight">#fceed1</color>
+    <color name="apps_primary">#8FB5C3</color>
+    <color name="apps_background">#022735</color>
+    <color name="apps_background_black">#000000</color>
+    <color name="apps_primary_light">#ffffff</color>
+    <color name="apps_errorColor">#FFE53935</color>
+    <color name="apps_infoColor">#FF342FA2</color>
+    <color name="apps_successColor">#FF4A934A</color>
+    <color name="apps_warningColor">#FFFFC107</color>
+    <color name="apps_update_background">#f3f3f3</color>
+    
+    <!-- ==================================== -->
+    <!--   APPS colors.                       -->
+    <!-- ==================================== -->    
+    <!-- Color For File Scanning -->
+	<color name="color_white">#FFFFFF</color>
+    <color name="color_bg_loading">#dc858585</color>
+    <color name="color_bg_success">#dc82ce32</color>
+    <color name="color_bg_error">#dcd84315</color>
+	
+    <!-- Color For Root Checker-->
+    <color name="root_pass">#5d862e</color>
+    <color name="root_fail">#FF5252</color>
+    <color name="root_problem">#0097A7</color>
+    <color name="root_color">#814D30</color>
+	
+</resources>

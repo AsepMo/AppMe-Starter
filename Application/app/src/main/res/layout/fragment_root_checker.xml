@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fillViewport="true"
+	android:background="#FFFFFFFF">
+
+	<RelativeLayout
+		android:id="@+id/resultsContainer"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<ProgressBar
+			android:id="@+id/loadingRootCheckBeerView"
+			style="@android:style/Widget.ProgressBar.Horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="3dip"
+			android:progressDrawable="@drawable/progress_style"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:layout_margin="16dp"
+			android:orientation="vertical">
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:minHeight="@dimen/content_main_table_row_min_height">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:text="@string/action_root_checker"
+					android:textColor="#FFFFFFFF"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:shadowColor="#FF000000"
+					android:shadowDx="1"
+					android:shadowDy="2"
+					android:shadowRadius="8"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					android:paddingRight="8dp"
+					android:text="@string/action_root_checker_values"
+					android:typeface="serif"/>
+
+			</RelativeLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="2dp"
+				android:layout_marginBottom="@dimen/content_main_table_row_margin_bottom"
+				android:background="#66000000"/>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/content_main_table_row_margin_bottom"
+				android:minHeight="@dimen/content_main_table_row_min_height">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:text="@string/root_checks_1"
+					android:textColor="#FF000000"/>
+
+				<ImageView
+					android:id="@+id/content_main_root_check_image_1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					tools:src="@drawable/ic_tick_green_24dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/content_main_table_row_margin_bottom"
+				android:minHeight="@dimen/content_main_table_row_min_height">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:text="@string/root_checks_2"
+					android:textColor="#FF000000"/>
+
+				<ImageView
+					android:id="@+id/content_main_root_check_image_2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					tools:src="@drawable/ic_tick_green_24dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/content_main_table_row_margin_bottom"
+				android:minHeight="@dimen/content_main_table_row_min_height">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:text="@string/root_checks_3"
+					android:textColor="#FF000000"/>
+
+				<ImageView
+					android:id="@+id/content_main_root_check_image_3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					tools:src="@drawable/ic_tick_green_24dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/content_main_table_row_margin_bottom"
+				android:minHeight="@dimen/content_main_table_row_min_height">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:text="@string/root_checks_4"
+					android:textColor="#FF000000"/>
+
+				<ImageView
+					android:id="@+id/content_main_root_check_image_4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					tools:src="@drawable/ic_tick_green_24dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/content_main_table_row_margin_bottom"
+				android:minHeight="@dimen/content_main_table_row_min_height">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:text="@string/root_checks_5"
+					android:textColor="#FF000000"/>
+
+				<ImageView
+					android:id="@+id/content_main_root_check_image_5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					tools:src="@drawable/ic_tick_green_24dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/content_main_table_row_margin_bottom"
+				android:minHeight="@dimen/content_main_table_row_min_height">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:text="@string/root_checks_6"
+					android:textColor="#FF000000"/>
+
+				<ImageView
+					android:id="@+id/content_main_root_check_image_6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					tools:src="@drawable/ic_tick_green_24dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/content_main_table_row_margin_bottom"
+				android:minHeight="@dimen/content_main_table_row_min_height">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:text="@string/root_checks_7"
+					android:textColor="#FF000000"/>
+
+				<ImageView
+					android:id="@+id/content_main_root_check_image_7"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					tools:src="@drawable/ic_tick_green_24dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/content_main_table_row_margin_bottom"
+				android:minHeight="@dimen/content_main_table_row_min_height">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:text="@string/root_checks_8"
+					android:textColor="#FF000000"/>
+
+				<ImageView
+					android:id="@+id/content_main_root_check_image_8"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					tools:src="@drawable/ic_tick_green_24dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/content_main_table_row_margin_bottom"
+				android:minHeight="@dimen/content_main_table_row_min_height">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:text="@string/root_checks_9"
+					android:textColor="#FF000000"/>
+
+				<ImageView
+					android:id="@+id/content_main_root_check_image_9"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					tools:src="@drawable/ic_tick_green_24dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/content_main_table_row_margin_bottom"
+				android:minHeight="@dimen/content_main_table_row_min_height">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:text="@string/root_checks_10"
+					android:textColor="#FF000000"/>
+
+				<ImageView
+					android:id="@+id/content_main_root_check_image_10"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					tools:src="@drawable/ic_tick_green_24dp"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/content_main_table_row_margin_bottom"
+				android:minHeight="@dimen/content_main_table_row_min_height">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:text="@string/root_checks_11"
+					android:textColor="#FF000000"/>
+
+				<ImageView
+					android:id="@+id/content_main_root_check_image_11"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					tools:src="@drawable/ic_tick_green_24dp"/>
+
+			</RelativeLayout>
+
+			<TextView
+				android:id="@+id/content_mainisRootedTextDisclaimer"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="* it's an indication that the device 'might' be rooted"
+				android:visibility="gone"/>
+
+		</LinearLayout>
+
+		<com.appme.story.engine.widget.TextViewFont
+			android:id="@+id/content_main_is_rooted_text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:textColor="#D50000"
+			android:textSize="34sp"
+			app:customFont="fonts/SubwayNovella.ttf"/>
+
+	</RelativeLayout>
+
+</ScrollView>
+

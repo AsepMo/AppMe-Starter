@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.appme.story">
+
+    <!-- akses penuh Internet. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- lihat status jaringan. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!-- lihat status Wi-Fi. -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <!-- ganti konektivitas jaringan. -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+
+    <!-- sambung dan putuskan Wi-Fi -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
+    <!-- Bolehkan penerimaan multicast Wi-Fi -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+
+    <!-- Baca status dan ID telp. -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <!-- baca konten kartu SD Anda -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <!-- mengubah atau menghapus konten kartu SD Anda -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <!-- ubah pengaturan sistem global. -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+
+    <!-- langsung instal aplikasi. -->
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+
+    <!-- REQUEST_INSTALL_PACKAGES -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+    <!-- mengirimkan siaran tanpa paket -->
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REMOVED"/>
+
+    <!-- ukur kapasitas penyimpanan aplikasi. -->
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+
+    <!-- Update statistik pemakaian komponen. -->
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+
+    <!-- QUERY_ALL_PACKAGES -->
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+
+    <!-- REQUEST_DELETE_PACKAGES -->
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+
+    <!-- hapus aplikasi. -->
+    <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+
+    <!-- Akhiri proses latar belakang -->
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+
+    <!-- Buat pintasan -->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+
+    <!-- Hapus pintasan -->
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+
+    <!-- paksa telepon boot ulang. -->
+    <uses-permission android:name="android.permission.REBOOT"/>
+
+    <!-- dijalankan saat dimulai -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <!-- tutup aplikasi lain -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+    <!-- SEND_RECEIVE_SETTINGS -->
+    <uses-permission android:name="${applicationId}.SEND_RECEIVE_SETTINGS"/>
+
+    <!-- FOREGROUND_SERVICE -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <!-- Terikat ke layanan aksesibilitas -->
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"/>
+
+    <permission
+        android:name="${applicationId}.SEND_RECEIVE_SETTINGS"
+        android:protectionLevel="signature"/>
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false"/>
+
+    <application
+        android:name=".AppController"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+        android:resizeableActivity="true">
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Splash">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".application.ApplicationStarter"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Starter"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:hardwareAccelerated="true">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".application.ApplicationInstaller"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:hardwareAccelerated="true">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".application.ApplicationActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:hardwareAccelerated="true">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".application.SettingsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"/>
+
+        <activity
+            android:name=".application.CustomsUpdateActivity"
+            android:theme="@style/UpdateDialog"/>
+
+        <activity
+            android:name=".application.UpdateActivity"
+            android:theme="@style/UpdateDialog">
+
+        </activity>
+
+        <activity
+            android:name=".application.CrashActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.appme.story.application.ShareReceiverActivity">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.SEND"/>
+
+                <data android:mimeType="x-test/madeup"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+
+        </activity>
+
+        <provider
+            android:name="com.appme.story.engine.content.SampleContentProvider"
+            android:authorities="com.appme.story.engine.content"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <meta-data
+                android:name="com.appme.story.engine.content.ALLOW_INTERNAL_ACCESS"
+                android:value="true"/>
+
+        </provider>
+
+        <provider
+            android:name="com.appme.story.engine.content.SampleInternalContentProvider"
+            android:authorities="com.appme.story.engine.content.internal"
+            android:exported="false"/>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+
+        </provider>
+
+        <service
+            android:name=".service.AppMeService"
+            android:exported="false"
+            android:process=":service"/>
+
+        <service android:name=".service.DownLoadService"/>
+
+        <service
+            android:name=".service.server.CoreService"
+            android:exported="false"/>
+
+        <service
+            android:name=".service.InstallService"
+            android:exported="false"
+            android:process=":service"/>
+
+        <service
+            android:name=".servive.KeepAliveService"
+            android:exported="true"
+            tools:ignore="ExportedService" />
+
+        <receiver
+            android:name=".receiver.RemoteLogger"
+            android:enabled="true"
+            android:exported="true"/>
+        
+        <receiver
+            android:name=".receiver.OnBootCompleteReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>       
+        </receiver>
+        
+      <meta-data
+          android:name="android.max_aspect"
+          android:value="4.0"/>
+
+    </application>
+	
+</manifest>
